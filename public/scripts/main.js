@@ -14,8 +14,8 @@ window.addEventListener('load', () => {
 
             setTimeout(() => {
                 circle.remove('active')
-                button.href = button.dataset.href
-                window.location.href = button.dataset.href
+                // button.href = button.dataset.href
+                // window.location.href = button.dataset.href
             }, 700)
         })
     })
