@@ -25,7 +25,7 @@ body {
 a {
     text-decoration: none;
     color: initial;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .container {
@@ -115,5 +115,15 @@ a.material_button:hover {
     } to {
         transform: translateX(0px);
         opacity: 1;
+    }
+}
+
+@media (max-width: 1000px) {
+    a {
+        font-size: 3rem;
+    }
+
+    .container {
+        flex-direction: column;
     }
 }
