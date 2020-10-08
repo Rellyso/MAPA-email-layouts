@@ -120,7 +120,7 @@ a.material_button:hover {
 
 @media (max-width: 1000px) {
     a {
-        font-size: 3rem;
+        font-size: 2em;
     }
 
     .container {
