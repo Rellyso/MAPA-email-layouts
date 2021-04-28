@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
 
     material_buttons.forEach((button) => {
         button.addEventListener('click', (e) => {
-            console.log(`${e.pageX - button.offsetLeft}px`)            
+            console.log(`${e.pageX - button.offsetLeft}px`)
             button.insertAdjacentHTML('afterBegin', '<span class="button_circle"></span>')
 
             const circle = button.querySelector('.button_circle')
